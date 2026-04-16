@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What drugs treat Alzheimer disease?",
+    "answer": "To answer this question, we need to look for triples that have \"Alzheimer disease\" as the subject and \"indication\" as the predicate. \n\nHowever, upon reviewing the provided triples, there is no mention of \"Alzheimer disease\" or any drugs that treat it.\n\nans: not available"
+  },
+  {
+    "question": "What are the contraindications of Codeine?",
+    "answer": "To answer the question about the contraindications of Codeine, we need to follow a step-by-step reasoning process based on the provided triples.\n\n1. **Identify Relevant Information**: The first step is to identify any information related to Codeine in the triples. However, upon reviewing the triples, there is no direct mention of \"Codeine\" or its contraindications.\n\n2. **Consider Related Concepts**: Since there's no direct information about Codeine, we might consider looking for related concepts such as its common uses, side effects, or interactions. Yet, the triples provided do not include any information about Codeine.\n\n3. **Conclusion**: Given that there is no information about Codeine or its contraindications in the provided triples, we cannot determine the contraindications of Codeine based on the given data.\n\nans: not available"
+  },
+  {
+    "question": "What drugs treat Parkinson disease?",
+    "answer": "To answer this question, we need to look for indications of drugs in the triples. However, there is no mention of Parkinson's disease in the given triples. \n\nans: not available"
+  },
+  {
+    "question": "What are the side effects of Galantamine?",
+    "answer": "To answer this question, we need to look for a triple in the format (Galantamine, side_effect, X), where X is the side effect. \n\nSince there is no triple with Galantamine as the subject, we cannot determine the side effects of Galantamine from the given triples.\n\nans: not available"
+  },
+  {
+    "question": "What drugs treat hypertension?",
+    "answer": "To answer this question, we need to find the indication for hypertension in the given triples. \nThe triple (Hypertension, indication, Lisinopril) shows that Lisinopril is used to treat hypertension.\nTherefore, we can conclude that the drug used to treat hypertension is Lisinopril.\n\nans: Lisinopril"
+  },
+  {
+    "question": "What are the contraindications of Metformin?",
+    "answer": "To find the contraindications of Metformin, we need to look for any triples that indicate a condition or situation where Metformin should not be used. However, the provided triples do not explicitly mention contraindications for Metformin. They do mention that Metformin is indicated for Diabetes and has a side effect of Nausea, but they do not provide information on when Metformin should not be used.\n\nans: not available"
+  },
+  {
+    "question": "What drugs treat epilepsy?",
+    "answer": "To answer this question, we need to look for triples that contain information about indications for drugs. \n\nFrom the given triples, we can see that there are indications for the following conditions: \n- Hypertension (Lisinopril)\n- Migraine (Sumatriptan)\n- Asthma (Albuterol)\n\nHowever, there is no information about epilepsy in the given triples.\n\nans: not available"
+  },
+  {
+    "question": "What are the side effects of Donepezil?",
+    "answer": "To answer this question, we need to find a triple in the form of (Donepezil, side_effect, X), where X is the side effect. \n\nLooking through the triples, we cannot find any triple that starts with \"Donepezil\" and has \"side_effect\" as the relation.\n\nans: not available"
+  },
+  {
+    "question": "What drugs treat asthma?",
+    "answer": "To find the answer, we need to look for the indication \"Asthma\" in the triples. \nThe triple (Asthma, indication, Albuterol) shows that Albuterol is used to treat Asthma.\nTherefore, the drug that treats asthma is Albuterol.\nans: Albuterol"
+  },
+  {
+    "question": "What are the contraindications of Aspirin?",
+    "answer": "To answer the question about the contraindications of Aspirin, we need to look at the provided triples for any information related to Aspirin. However, upon reviewing the triples, there is no mention of Aspirin or its contraindications.\n\nans: not available"
+  }
+]

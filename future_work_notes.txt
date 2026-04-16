@@ -1,0 +1,15 @@
+FUTURE WORK — DDE (Directional Distance Encoding)
+
+The original SubgraphRAG paper uses a lightweight MLP with 
+Directional Distance Encoding (DDE) for triple scoring.
+
+DDE encodes structural distances from topic entities by 
+propagating one-hot encodings bidirectionally through the graph.
+This allows the retriever to score triples based on both 
+semantic similarity AND structural proximity to the query entity.
+
+In our implementation, we used cosine similarity for triple 
+scoring (simpler but effective). A future improvement would be 
+to implement DDE-based triple scoring using the MLP approach 
+from the paper, which would likely improve multi-hop retrieval 
+performance further.
