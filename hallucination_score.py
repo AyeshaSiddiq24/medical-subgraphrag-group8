@@ -76,7 +76,7 @@ def evaluate_hallucination(results: list, label: str) -> float:
     from groq import Groq
     import time
 
-    client = Groq(api_key="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")
+    client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")
 
     print(f"\n{'='*65}")
     print(f"Hallucination Evaluation — {label}")

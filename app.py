@@ -10,7 +10,7 @@ from neo4j import GraphDatabase
 import networkx as nx
 from collections import Counter
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE"
 client = Groq(api_key=GROQ_API_KEY)
 driver = GraphDatabase.driver("neo4j://127.0.0.1:7687", auth=("neo4j", "password123"))
 

@@ -6,7 +6,7 @@ import time
 NEO4J_URI      = "neo4j://127.0.0.1:7687"
 NEO4J_USER     = "neo4j"
 NEO4J_PASSWORD = "password123"
-GROQ_API_KEY   = "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"  # ← paste your gsk_ key
+GROQ_API_KEY   = "YOUR_GROQ_API_KEY_HERE"  # ← paste your YOUR_GROQ_API_KEY_HERE key
 
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 client = Groq(api_key=GROQ_API_KEY)

@@ -2,7 +2,7 @@
 from groq import Groq
 import json
 
-client = Groq(api_key="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")  # ← paste your gsk_ key
+client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")  # ← paste your YOUR_GROQ_API_KEY_HERE key
 
 def extract_entities(query):
     prompt = f"""

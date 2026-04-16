@@ -1,6 +1,6 @@
 from groq import Groq
 
-client = Groq(api_key="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")  # ← paste your gsk_ key
+client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")  # ← paste your YOUR_GROQ_API_KEY_HERE key
 
 def ask_llm(query, triples):
     triple_text = "\n".join([t["text"] for t in triples])
